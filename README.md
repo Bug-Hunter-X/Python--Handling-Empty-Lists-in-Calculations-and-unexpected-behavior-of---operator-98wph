@@ -1,0 +1,3 @@
+This repository demonstrates a common error in Python: handling empty lists or zero-length sequences when performing calculations.  The primary example focuses on calculating the average of a list of numbers.  Additionally, it highlights unexpected behavior when using the '+' operator with lists.
+
+The `bug.py` file shows the erroneous code, while `bugSolution.py` offers a corrected version that addresses the potential `ZeroDivisionError` by explicitly checking for empty lists. The second part demonstrates the unexpected behavior of using the '+' operator with lists, which attempts concatenation instead of addition.
